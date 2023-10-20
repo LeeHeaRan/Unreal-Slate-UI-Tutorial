@@ -17,9 +17,12 @@ Actor Class (A)
 
 슬레이트란 기존의 UI 시스템.
 
-UMG, HUD 같은 Blueprint는 Unreal 4 부터 제공되기 시작함. Slate의 상세내용은 Unreal 문건 확인 하시길.
+UMG, HUD 같은 Blueprint는 Unreal 4 부터 제공되기 시작함. Slate의 상세내용은 Unreal 공식 문서 확인 하시길.
 
 해당 프로젝트는 
 1. C++ Project로 언리얼 프로젝트를 만들고.
 2. Cpp class 만으로 플레이 시 화면 중앙에 UI Text를 출력한다.
 3. 수정한 소스코드만 올려드림. 
+4. MenuHUD, SMainMenuWidget 새로 생성한 Cpp, UI_Project.Build.cs, UI_ProjectGameMode.cpp 프로젝트 생성시 자동 생성 파일.
+
+가장 기본적인 프레임으로 직접 UI를 구성할꺼면 Unreal 공식 문서 보시길
